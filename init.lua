@@ -1,4 +1,5 @@
 require("config.lazy")
 require("config.remap")
+require("config.set")
 vim.lsp.enable('lua_ls')
 vim.lsp.enable('pylsp')
