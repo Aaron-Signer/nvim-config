@@ -1,5 +1,5 @@
 -- lua/plugins/rose-pine.lua
-return {
+return {	
 	"rose-pine/neovim",
 	name = "rose-pine",
 	config = function()
