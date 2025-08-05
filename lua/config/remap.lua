@@ -7,3 +7,6 @@ vim.keymap.set('n', '<leader>plg', builtin.live_grep, { desc = 'Telescope live g
 vim.keymap.set('n', '<leader>ps', function()
 	builtin.grep_string({search = vim.fn.input("Grep > ")});
 end)
+vim.keymap.set("n", "gl", function() vim.diagnostic.open_float() end,
+	{desc="Open Diagnostics in Float"}
+)
